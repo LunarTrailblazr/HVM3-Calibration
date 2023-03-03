@@ -1,0 +1,52 @@
+{
+     "directsolar_wide":{
+       "flat_field_file": "../data/HVM3_FlatField_44ms_20221122",
+       "integration_time": 0.045454545454545456,
+       "radiometric_coefficient_file": "../data/HVM3_RadiometricCoeffs_44ms_20221118.txt",
+       "spectral_calibration_file": "../data/HVM3_Wavelengths_20221028.txt",
+       "masked_columns": [[0,10],[630,639]],
+       "distributed_columns": [20,620],
+       "distributed_rows": [7,314],
+       "frame_size":[321,640],
+       "reference_cols":[[325,365]],
+       "crosstrack_binning":1,
+       "spectrometer_emission_file": "/home/drt/src/hvm3/l1/data/HVM3_SpectrometerEmission_227ms_20221119.txt",
+       "osf_seam_positions": [[154,157],[251,254]]
+     },
+     "directsolar_narrow":{
+       "flat_field_file": "../data/HVM3_FlatField_44ms_narrow_20221122",
+       "integration_time": 0.045454545454545456,
+       "radiometric_coefficient_file": "../data/HVM3_RadiometricCoeffs_44ms_20221118.txt",
+       "spectral_calibration_file": "../data/HVM3_Wavelengths_20221028.txt",
+       "frame_size":[321,320],
+       "distributed_rows": [7,314],
+       "crosstrack_binning":1,
+       "spectrometer_emission_file": "/home/drt/src/hvm3/l1/data/HVM3_SpectrometerEmission_227ms_20221119.txt",
+       "osf_seam_positions": [[154,157],[251,254]]
+     },
+     "PSR_wide":{
+       "flat_field_file": "../data/HVM3_FlatField_227ms_20221122",
+       "integration_time": 0.22727272727272727,
+       "radiometric_coefficient_file": "../data/HVM3_RadiometricCoeffs_227ms_20221118.txt",
+       "spectral_calibration_file": "../data/HVM3_Wavelengths_20221028.txt",
+       "masked_columns": [[0,10],[630,639]],
+       "distributed_columns": [20,620],
+       "distributed_rows": [7,314],
+       "reference_cols":[[325,365]],
+       "frame_size":[321,640],
+       "crosstrack_binning":5,
+       "spectrometer_emission_file": "/home/drt/src/hvm3/l1/data/HVM3_SpectrometerEmission_227ms_20221119.txt",
+       "osf_seam_positions": [[154,157],[251,254]]
+     },
+     "PSR_narrow":{
+       "flat_field_file": "../data/HVM3_FlatField_227ms_narrow_20221122",
+       "integration_time": 0.22727272727272727,
+       "radiometric_coefficient_file": "../data/HVM3_RadiometricCoeffs_227ms_20221118.txt",
+       "spectral_calibration_file": "../data/HVM3_Wavelengths_20221028.txt",
+       "frame_size":[321,320],
+       "distributed_rows": [7,314],
+       "crosstrack_binning":5,
+       "spectrometer_emission_file": "/home/drt/src/hvm3/l1/data/HVM3_SpectrometerEmission_227ms_20221119.txt",
+       "osf_seam_positions": [[154,157],[251,254]]
+     }
+}
