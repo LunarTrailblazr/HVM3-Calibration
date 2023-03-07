@@ -1,4 +1,4 @@
-# HVM3 Calibraiton Software
+# HVM3 Calibration Software
 
 Copyright (c) 2023-24 California Institute of Technology (“Caltech”). U.S. Government sponsorship acknowledged.
 All rights reserved.
