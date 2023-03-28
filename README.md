@@ -7,8 +7,11 @@ You can calibrate an HVM3 image with the following syntax:
 ... where file_list.txt is an ASCII text file in the following format:
 
 <dark_data_file_1> <science_data_file_1>
+
 <dark_data_file_2> <science_data_file_2>
+
 <dark_data_file_3> <science_data_file_3>
+
 ...et cetera.
 
 Directory contents:
